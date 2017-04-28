@@ -1,0 +1,22 @@
+{
+  "name": "FrameworkExample",
+  "version": "0.1.0",
+  "summary": "A short description of FrameworkExample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ericrowe/FrameworkExample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ericrowe": "ERowe@us.ci.org"
+  },
+  "source": {
+    "git": "https://github.com/ericrowe/FrameworkExample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FrameworkExample/Classes/**/*"
+}

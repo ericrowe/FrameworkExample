@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import FrameworkExample
 
 class ViewController: UIViewController {
+    @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,17 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        RPNMath.shared.push(value: 2)
+        RPNMath.shared.push(value: 2)
+        RPNMath.shared.add()
+        if let answer = RPNMath.shared.stack.first {
+            label.text = "\(answer)"
+        }
     }
 
 }

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FrameworkExample'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FrameworkExample.'
+  s.summary          = 'A much more meaningful short description of FrameworkExample.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A really ong description to make lint be quiet.  It needs to be longer than the summary or the busybody who wrote the vaildator will get upset.
                        DESC
 
   s.homepage         = 'https://github.com/ericrowe/FrameworkExample'
